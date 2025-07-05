@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+old_tf_venv/
+
+# IDEs
+.idea/
+
+# Temporary & generated
+temp.jpg
+hand_image*.jpg
+*.h5
+*.png
