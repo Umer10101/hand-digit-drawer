@@ -2,7 +2,7 @@
 
 This project enables users to draw digits in the air using hand gestures detected via webcam, and then classify the drawn digit using a Convolutional Neural Network (CNN) trained on a digit dataset.
 
-![Demo](sample_digit.png) <!-- Add a screenshot or remove this line -->
+![Demo](sample_digit.jpg) <!-- Add a screenshot or remove this line -->
 
 ## Features
 
