@@ -138,7 +138,7 @@ def main():
 
         key = cv.waitKey(1)
         if key == ord('s'):
-            cv.imwrite("hand_image.jpg", canvas)
+            cv.imwrite("hand_image.jpg", combined_display)
             print("[INFO] Image saved as hand_image.jpg")
 
         elif key == ord('a'):
@@ -147,7 +147,7 @@ def main():
             digit, confidence = load_and_predict("digit_recognition_model.h5", temp_path)
             if digit is not None:
                 print(f"[RESULT] Predicted Digit: {digit} | Confidence: {confidence:.2f}")
-                canvas = cv.putText(canvas, f"{digit} ({confidence:.2f})", (350, 460),
+                canvas = cv.putText(canvas, f"Predicted Digit: {digit} ({confidence:.2f})", (250, 460),
                                     cv.FONT_HERSHEY_PLAIN, 1.0, COLORS["red"])
 
         elif key == 27:  # ESC to exit

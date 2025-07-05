@@ -1,17 +1,54 @@
-# Python
+# ========================
+# Python bytecode
+# ========================
 __pycache__/
 *.py[cod]
 *.egg-info/
 
+# ========================
 # Virtual environments
+# ========================
 .venv/
+env/
+venv/
 old_tf_venv/
 
-# IDEs
+# ========================
+# IDEs and Editors
+# ========================
 .idea/
+.vscode/
+*.swp
+.DS_Store
 
-# Temporary & generated
+# ========================
+# Notebook & Jupyter
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Machine Learning Models
+# ========================
+*.h5
+!digit_recognition_model.h5  # Keep this one
+
+# ========================
+# Temporary Images & Outputs
+# ========================
 temp.jpg
 hand_image*.jpg
-*.h5
+*.tmp
+*.log
+
+# ========================
+# Sample / Result Files
+# ========================
 *.png
+sample_digit*.png
+
+# ========================
+# OS-specific files
+# ========================
+Thumbs.db
+ehthumbs.db
+desktop.ini
